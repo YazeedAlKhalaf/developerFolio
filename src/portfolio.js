@@ -9,27 +9,28 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Yazeed AlKhalaf",
+  title: "Hi all, I'm Yazeed",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I'm an application developer and designer, specialized in building cross-platform applications using Google's Flutter framework."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/17jAp954jJqaHT1DDQgo938P7LTIm28TE/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/yazeedalkhalaf",
+  linkedin: "https://www.linkedin.com/in/yazeedalkhalaf/",
+  gmail: "yazeedfady@gmail.com",
+  gitlab: "https://gitlab.com/yazeedalkhalaf",
+  facebook: "https://www.facebook.com/yazeedfady/",
+  medium: "https://yazeedalkhalaf.medium.com/",
+  stackoverflow: "https://stackoverflow.com/users/11105538/yazeed-alkhalaf",
   // Instagram and Twitter are also supported in the links!
+  instagram: "https://www.instagram.com/yazeedalkhalaf/",
+  twitter: "https://twitter.com/YazeedAlKhalaf",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -40,11 +41,10 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications using Flutter"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase/ Google Cloud"
     )
   ],
 
@@ -77,20 +77,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "firebase",
@@ -114,24 +106,14 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "AlRowad International Schools",
+      logo: require("./assets/images/alrowad_logo.png"),
+      subHeader: "High School",
+      duration: "Aug 2019 - Present",
+      desc: emoji("I love this school so much 🚀"),
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Created Code Crew club where I teach programming but specifically Flutter"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -142,15 +124,19 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Flutter", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Firebase",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "ReactJS",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Linux Server",
       progressPercentage: "60%"
     }
   ],
@@ -163,32 +149,12 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Tech Partner",
+      company: "Masaha App",
+      companylogo: require("./assets/images/masaha_logo.jpg"),
+      date: "Aug 2020 – Present",
+      desc: "Work on the mobile app and technical stuff.",
+      descBullets: []
     }
   ]
 };
@@ -198,7 +164,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "yazeedalkhalaf", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
@@ -209,31 +175,20 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
+    // {
+    //   image: require("./assets/images/saayaHealthLogo.webp"),
+    //   projectName: "Saayahealth",
+    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "http://saayahealth.com/"
+    //     }
+    //     //  you can add extra buttons here.
+    //   ]
+    // }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -246,51 +201,44 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "Hajj Hackathon",
+      subtitle: "Youngest participant in Hajj Hackathon.",
+      image: require("./assets/images/hajj_hackathon.png"),
       footerLink: [
         {
           name: "Certification",
           url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+            "https://drive.google.com/file/d/16fiQoqTznqKlPm5ZxFR5aTIsaSPi_-rB/view?usp=sharing"
         },
         {
-          name: "Award Letter",
+          name: "MBC TV Meeting",
           url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url:
-            "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+            "https://www.youtube.com/watch?v=hCPJRXgQiaM&ab_channel=%D8%B5%D8%A8%D8%A7%D8%AD%D8%A7%D9%84%D8%AE%D9%8A%D8%B1%D9%8A%D8%A7%D8%B9%D8%B1%D8%A8"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      title: "Google Talk Facilitation",
+      subtitle: "Facilitated a Google Saudi Community Talk.",
+      image: require("./assets/images/gcdc_saudi.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
+          name: "Certification",
           url:
-            "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+            "https://drive.google.com/file/d/1L2TAtsE2uQULreRWZa1HiDEbDHfSjZrg/view?usp=sharing"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Cyber Security for Kids",
+      subtitle: "Certificate of participation in Cyber Security for Kids.",
+      image: require("./assets/images/attaa_sa.png"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certification",
+          url:
+            "https://drive.google.com/file/d/1f6sodGIrpdPzSg1ih6p_yNUIYGTxCPLz/view?usp=sharing"
         }
       ]
     }
@@ -307,17 +255,17 @@ const blogSection = {
 
   blogs: [
     {
-      url:
-        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://blog.alkhalaf.dev/top-10-pro-tips-in-visual-studio-code",
+      title: "Top 10 PRO Tips in Visual Studio Code",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "According to the 2019 Stack Overflow survey, Visual Studio Code grew from being a nonexistent code editor to the single most used code editor by developers around the world!"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url:
+        "https://yazeedalkhalaf.medium.com/i-made-flutter-installer-using-flutter-60506c1127b5",
+      title: emoji("I made Flutter Installer using Flutter 🚀"),
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "My name is Yazeed AlKhalaf. I am 16 years old. I am living in Saudi Arabia, originally from Syria. I like Flutter, Google’s Dart framework. I have been using it since the early beta."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -333,10 +281,25 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "How to use an API with Flutter? (Arabic)",
+      subtitle: "Talk with Google Saudi Community",
+      slides_url: "",
+      event_url:
+        "https://www.youtube.com/watch?v=N4Os782By6Y&ab_channel=GoogleSaudiCommunity"
+    },
+    {
+      title: "What are the Row & Column widgets and there use cases? (Arabic)",
+      subtitle: "Widget of The Week with FlutterSA",
+      slides_url: "",
+      event_url:
+        "https://www.youtube.com/watch?v=BDE7MzTG2dU&ab_channel=FlutterSA"
+    },
+    {
+      title: "What are Images & Assets? (Arabic)",
+      subtitle: "Widget of The Week with FlutterSA",
+      slides_url: "",
+      event_url:
+        "https://www.youtube.com/watch?v=MGfEq7gxFEU&ab_channel=FlutterSA"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -352,22 +315,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+966509733490",
+  email_address: "yazeedfady@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "yazeedalkhalaf", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
