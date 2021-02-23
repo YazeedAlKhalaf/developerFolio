@@ -255,17 +255,22 @@ const blogSection = {
 
   blogs: [
     {
+      url:
+        "https://yazeedalkhalaf.medium.com/i-made-flutter-installer-using-flutter-60506c1127b5",
+      title: emoji("I made Flutter Installer using Flutter 🚀"),
+      description:
+        "My name is Yazeed AlKhalaf. I am 16 years old. I am living in Saudi Arabia, originally from Syria. I like Flutter, Google’s Dart framework. I have been using it since the early beta."
+    },
+    {
       url: "https://blog.alkhalaf.dev/top-10-pro-tips-in-visual-studio-code",
       title: "Top 10 PRO Tips in Visual Studio Code",
       description:
         "According to the 2019 Stack Overflow survey, Visual Studio Code grew from being a nonexistent code editor to the single most used code editor by developers around the world!"
     },
     {
-      url:
-        "https://yazeedalkhalaf.medium.com/i-made-flutter-installer-using-flutter-60506c1127b5",
-      title: emoji("I made Flutter Installer using Flutter 🚀"),
-      description:
-        "My name is Yazeed AlKhalaf. I am 16 years old. I am living in Saudi Arabia, originally from Syria. I like Flutter, Google’s Dart framework. I have been using it since the early beta."
+      url: "https://yazeedalkhalaf.medium.com/debug-your-flutter-app-on-a-real-android-device-over-wifi-bd70a7c25abe",
+      title: "Debug your Flutter app on a real Android device over WiFi!",
+      description: "Well, I got this question in my mind about debugging my app over WiFi so I started by googling and found that not a lot of people care about it but for me it did. "
     }
   ],
   display: true // Set false to hide this section, defaults to true
