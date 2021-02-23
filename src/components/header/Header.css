@@ -15,7 +15,8 @@
 
 .header {
   background-color: #fff;
-  max-width: 100%;
+  max-width: 1920px;
+  margin: auto;
   padding: 15px 20px;
   margin: 0px auto;
 }
