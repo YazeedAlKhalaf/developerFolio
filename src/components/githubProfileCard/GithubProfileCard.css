@@ -23,6 +23,19 @@
   text-shadow: blanchedalmond;
 }
 
+.location-svg {
+  margin-right: 0.5rem;
+  min-width: 16px;
+}
+
+.location-svg-light {
+  color: #37BBFA;
+}
+
+.location-svg-dark {
+  color: #ffffff;
+}
+
 .opp-div {
   padding-bottom: 1rem;
 }
