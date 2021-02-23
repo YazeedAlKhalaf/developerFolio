@@ -1,3 +1,10 @@
+.talk-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
 .talk-header-title {
   font-size: 56px;
   font-weight: 400;
