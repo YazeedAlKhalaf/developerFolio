@@ -24,6 +24,7 @@ const ToggleSwitch = () => {
 
   return (
     <Toggle
+      defaultChecked={isDark}
       icons={{
         checked: <Dark icon={"🌜"} />,
         unchecked: <Light icon={"🌞"} />
