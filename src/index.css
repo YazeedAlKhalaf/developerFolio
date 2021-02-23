@@ -36,3 +36,12 @@ body {
     line-height: normal;
   }
 }
+
+::selection {
+  color: #000000;
+  background: #b7fbfe; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  color: #000000;
+  background: #b7fbfe; /* Gecko Browsers */
+}
