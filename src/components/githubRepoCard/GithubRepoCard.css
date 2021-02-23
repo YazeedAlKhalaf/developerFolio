@@ -51,6 +51,14 @@
   min-width: 16px;
 }
 
+.repo-svg-light {
+  color: #37BBFA;
+}
+
+.repo-svg-dark {
+  color: #ffffff;
+}
+
 .repo-name {
   white-space: nowrap;
   text-overflow: ellipsis;
